@@ -36,7 +36,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className='w-full h-[80vh] md:h-[80vh] flex flex-col justify-between' id="#services">
+    <div className='w-full h-[80vh] md:h-[80vh] flex flex-col justify-between' id="services">
       {/* services-heading */}
       <div className='h-[40%] w-full flex justify-center items-center'>
         <h1 className='text-2xl md:text-4xl font-medium text-[#542EA6]'>Services</h1>

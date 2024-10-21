@@ -19,7 +19,7 @@ const Header = () => {
       }
     };
   return (
-    <div className='w-full h-[83px] bg-white border-2 border-gray-300 flex justify-between items-center'>
+    <div className='fixed  bg-white z-50 w-full h-[83px] bg-white border-2 border-gray-300 flex justify-between items-center'>
      {/* logo-image  */}
      <div>
         <img src={logo} className='h-20 w-20'/>

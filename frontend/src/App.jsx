@@ -1,6 +1,8 @@
 
 import './App.css'
 import Services from './components/Services/Services';
+import Aboutus from './components/Aboutus/Aboutus'
+import Footer from './pages/Footer/Footer'
 import Header from './pages/Header/Header'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
@@ -16,6 +18,8 @@ function App() {
     <>
       <Header/>
       <Services/>
+      <Aboutus/>
+      <Footer/>
     </>
   )
 }
