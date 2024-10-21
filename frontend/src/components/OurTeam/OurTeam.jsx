@@ -4,6 +4,7 @@ import "./OurTeam.png"
 const OurTeam = () => {
   return (
     <div className=''>
+      hello
 
     </div>
   )
