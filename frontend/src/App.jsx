@@ -10,6 +10,7 @@ import Header from './pages/Header/Header'
 import OurTeam from './components/OurTeam/OurTeam'
 import ContactUs from './components/ContactUs/ContactUs'
 import Footer from './pages/Footer/Footer.jsx'
+import CareerPage from './components/CareerPage.jsx';
 
 function App() {
   AOS.init({
@@ -23,11 +24,13 @@ function App() {
    
     <Header/>
     <LandingPage/>
+    
     <Aboutus/>
        <OurTeam />
        <Services/> 
        <WhyChooseUs/>    
       <ContactUs/>
+      <CareerPage/>
       <Footer/>
       </div>
   )

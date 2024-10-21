@@ -40,9 +40,9 @@ const Footer = () => {
                   <li>
                     <a href="#">Policies</a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a href="#">Career</a>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
               <div>
