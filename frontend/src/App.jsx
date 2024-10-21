@@ -2,10 +2,14 @@
 import './App.css'
 import Services from './components/Services/Services';
 import Aboutus from './components/Aboutus/Aboutus'
-import Footer from './pages/Footer/Footer'
-import Header from './pages/Header/Header'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
+import LandingPage from './components/LandingPage/LandingPage'
+import WhyChooseUs from './components/WhyChosseUs/WhyChooseUs'
+import Header from './pages/Header/Header'
+import OurTeam from './components/OurTeam/OurTeam'
+import ContactUs from './components/ContactUs/ContactUs'
+import Footer from './pages/Footer/Footer.jsx'
 
 function App() {
   AOS.init({
@@ -15,12 +19,17 @@ function App() {
   });
 
   return (
-    <>
-      <Header/>
-      <Services/>
-      <Aboutus/>
+   <div className="h-full w-full"> 
+   
+    <Header/>
+    <LandingPage/>
+    <Aboutus/>
+       <OurTeam />
+       <Services/> 
+       <WhyChooseUs/>    
+      <ContactUs/>
       <Footer/>
-    </>
+      </div>
   )
 }
 
