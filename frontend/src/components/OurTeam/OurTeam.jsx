@@ -3,8 +3,9 @@ import "./OurTeam.png"
 
 const OurTeam = () => {
   return (
-    <div>
-      
+    <div className=''>
+      hello
+
     </div>
   )
 }
