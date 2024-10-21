@@ -83,9 +83,11 @@ const Menu = ({ handleToggleMenu }) => {
 
       {/* contact-us button  */}
 
-      <button className=" w-[40%] ml-2 text-white bg-[#F27405] hover:text-[#F27405] hover:bg-white transition-all duration-300 border border-[#F27405] rounded-full px-4 py-2">
+      <a href="#contactus">
+      <button onClick={handleToggleMenu} className=" w-[40%] ml-2 text-white bg-[#F27405] hover:text-[#F27405] hover:bg-white transition-all duration-300 border border-[#F27405] rounded-full px-4 py-2">
         Contact Us
       </button>
+      </a>
     </div>
   );
 };

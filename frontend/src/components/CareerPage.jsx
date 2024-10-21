@@ -2,7 +2,7 @@ import React from 'react';
 
 const CareerPage = () => {
   return (
-    <div className="w-full  bg-[#542EA6] h-[500px] p-5 flex flex-col items-center justify-center">
+    <div id='careers' className="w-full  bg-[#542EA6] h-[500px] p-5 flex flex-col items-center justify-center">
       {/* Header Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-white">Join Our Team</h1>

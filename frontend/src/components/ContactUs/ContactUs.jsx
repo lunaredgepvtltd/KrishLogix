@@ -108,7 +108,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div
+    <div id="contactus"
       className="relative h-screen w-full bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: `url(${contactBgImage})` }}
     >

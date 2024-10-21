@@ -76,9 +76,11 @@ const Header = () => {
       {/* contact-us button  */}
 
       <div className="flex gap-3 items-center mr-2">
+        <a href="#contactus">
         <button className="text-white bg-[#F27405] hover:text-[#F27405] hover:bg-white transition-all duration-300 border border-[#F27405] rounded-full px-4 py-2">
           Contact Us
         </button>
+        </a>
         <div
           className="lg:hidden"
           onClick={() => {
