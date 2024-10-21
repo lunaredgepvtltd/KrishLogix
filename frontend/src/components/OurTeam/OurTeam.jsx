@@ -1,8 +1,11 @@
 import React from 'react'
+import "./OurTeam.png"
 
 const OurTeam = () => {
   return (
-    <div>OurTeam</div>
+    <div>
+      
+    </div>
   )
 }
 
