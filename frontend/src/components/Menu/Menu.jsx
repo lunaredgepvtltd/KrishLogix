@@ -12,7 +12,12 @@ const Menu = ({ handleToggleMenu }) => {
       {/* Mobile menu header */}
       <div className=" w-full h-auto flex justify-between items-center  border-2 border-gray-300">
         <Link to={"/"}>
-          <div>
+          <div
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="cursor-pointer"
+          >
             <img src={logo} className="h-20 w-20 mix-blend-multiply" />
           </div>
         </Link>
@@ -44,7 +49,7 @@ const Menu = ({ handleToggleMenu }) => {
             About Us{" "}
           </Link>
         </li>
-{/* 
+        {/* 
         <li className="p-2 border-b">
           <Link
             to={"/Careers"}
@@ -63,10 +68,12 @@ const Menu = ({ handleToggleMenu }) => {
           </Link>
         </li>
       </ul>
-      
+
       {/* contact-us button  */}
 
-      <button className=' w-[40%] ml-2 text-white bg-[#F27405] hover:text-[#F27405] hover:bg-white transition-all duration-300 border border-[#F27405] rounded-full px-4 py-2'>Contact Us</button>
+      <button className=" w-[40%] ml-2 text-white bg-[#F27405] hover:text-[#F27405] hover:bg-white transition-all duration-300 border border-[#F27405] rounded-full px-4 py-2">
+        Contact Us
+      </button>
     </div>
   );
 };
