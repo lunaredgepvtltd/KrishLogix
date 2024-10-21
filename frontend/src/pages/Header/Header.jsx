@@ -52,8 +52,6 @@ const Header = () => {
           </a>
         </li>
 
-        {/* <li><Link to={'/Careers'} className='hover:text-[#F27405] transition-all duration-300'>Careers</Link></li> */}
-
         <li>
           <a
             href="#services"
@@ -61,6 +59,16 @@ const Header = () => {
             className="hover:text-[#F27405] transition-all duration-300"
           >
             Services
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#careers"
+            onClick={(e) => scrollToSection(e, "#careers")}
+            className="hover:text-[#F27405] transition-all duration-300"
+          >
+            Careers
           </a>
         </li>
       </ul>

@@ -33,39 +33,51 @@ const Menu = ({ handleToggleMenu }) => {
       {/* header-options  */}
       <ul className=" w-full font-normal h-full text-lg lg:flex flex-col justify-start items-center p-[2%]">
         <li className="p-2 border-b">
-          <Link
-            to={"/home"}
+        <a
+            href="#home"
+            onClick={(e) =>{
+              handleToggleMenu();
+               scrollToSection(e, "#home")}}
             className="hover:text-[#F27405] transition-all duration-300"
           >
             Home
-          </Link>
+          </a>
         </li>
 
         <li className="p-2 border-b">
-          <Link
-            to={"/AboutUs"}
+        <a
+            href="#aboutus"
+            onClick={(e) => {
+              handleToggleMenu();
+              scrollToSection(e, "#aboutus")}}
             className="hover:text-[#F27405] transition-all duration-300"
           >
             About Us{" "}
-          </Link>
+          </a>
         </li>
-        {/* 
+        
         <li className="p-2 border-b">
-          <Link
-            to={"/Careers"}
+        <a
+            href="#careers"
+            onClick={(e) => {
+              handleToggleMenu();
+              scrollToSection(e, "#careers")}}
             className="hover:text-[#F27405] transition-all duration-300"
           >
             Careers
-          </Link>
-        </li> */}
+          </a>
+        </li>
 
         <li className="p-2 border-b">
-          <Link
-            to={"/Services"}
+        <a
+            href="#services"
+            onClick={(e) => {
+              handleToggleMenu();
+              scrollToSection(e, "#services")}}
             className="hover:text-[#F27405] transition-all duration-300"
           >
             Services
-          </Link>
+          </a>
         </li>
       </ul>
 
