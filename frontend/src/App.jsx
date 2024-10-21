@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from './pages/Header/Header'
 
 function App() {
   
 
   return (
     <>
-      <h1>hello</h1>
+      <Header/>
     </>
   )
 }
