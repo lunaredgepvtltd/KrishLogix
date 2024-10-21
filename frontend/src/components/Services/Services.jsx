@@ -36,14 +36,14 @@ const Services = () => {
   }, []);
 
   return (
-    <div className='w-full h-[80vh] md:h-[80vh] flex flex-col justify-between' id="services">
+    <div className='w-full h-[60vh] md:h-[80vh] flex flex-col justify-around md:justify-between' id="services">
       {/* services-heading */}
-      <div className='h-[40%] w-full flex justify-center items-center'>
-        <h1 className='text-2xl md:text-4xl font-medium text-[#542EA6]'>Services</h1>
+      <div className='h-[20%] md:h-[40%] w-full flex justify-center items-center'>
+        <h1 className='text-4xl md:text-6xl font-medium text-[#542EA6]'>Services</h1>
       </div>
 
       {/* service-boxes */}
-      <div className='h-[60%] w-full flex justify-center items-center relative'>
+      <div className='h-[70%] md:h-[60%] w-full flex justify-center items-center relative'>
         {SmallDevice ? (
           // Custom slider for small devices
           <div className='relative w-[95%] rounded-sm h-full flex items-start justify-center'>
