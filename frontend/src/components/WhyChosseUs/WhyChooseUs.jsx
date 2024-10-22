@@ -36,7 +36,7 @@ function WhyChooseUs() {
       <h2 className="text-3xl md:text-5xl font-semibold text-center mb-10 md:mb-8">Why Choose Us?</h2>
 
       {/* Slider for small screens */}
-      <div className="block md:hidden h-[400px] ">
+      <div className="block md:hidden h-[370px] ">
         <Slider {...settings}>
           <FeatureCard image={experience} title="Experience and Expertise" />
           <FeatureCard image={approach} title="Proven Approach" />
@@ -47,7 +47,7 @@ function WhyChooseUs() {
       </div>
 
       {/* Regular layout for larger screens */}
-      <div className="hidden md:flex min-h-screen flex-wrap items-center justify-center">
+      <div className="hidden md:flex h-[70vh] flex-wrap items-center justify-center">
         <FeatureCard image={experience} title="Experience and Expertise" />
         <FeatureCard image={approach} title="Proven Approach" />
         <FeatureCard image={global} title="Global Reach" />

@@ -19,7 +19,7 @@ const Header = () => {
     }
   };
   return (
-    <div className="fixed  bg-white z-50 w-full h-[83px]  border-2 border-gray-300 flex justify-between items-center">
+    <div className="fixed  bg-white z-50 w-full h-[85px]  border-y-2 border-gray-300 flex justify-between items-center">
       {/* logo-image  */}
       <div
         onClick={() => {

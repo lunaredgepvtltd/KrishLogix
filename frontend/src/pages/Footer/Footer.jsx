@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-
+import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   const getSize = () => {
     if (window.innerWidth < 640) {
@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-gradient-to-r from-[#ffffff] to-[#cdcdcd] h-full w-full ">
-        <div className="footer-blk ">
+        <div className="footer-blk p-3">
           <div className="flex flex-col md:flex-row justify-between gap-5 p-[2%] ">
             <div>
               <h4 className="font-bold text-2xl  mb-[2%]">Registered Office</h4>
@@ -26,11 +26,11 @@ const Footer = () => {
                 <br /> CBD, Belapur, Navi Mumbai,
                 <br /> Maharashtra - 400614
               </p>
-              Telephone
+              Telephone : <a href="tel:022-45174666" className="text-blue-500"> 022-45174666</a>, <a href="tel:022-45175666" className="text-blue-500">022-45175666</a>
               <br />
-              Email: info@krishlogix.com
+              Email:  <a href="mailto:info@krishlogix.com" className="text-blue-500">info@krishlogix.com</a>
             </div>
-            <div className="flex justify-between flex-row md:flex-row md:justify-evenly md:gap-16 p-[3%]">
+            <div className="flex justify-between flex-row md:flex-row md:justify-evenly md:gap-16 md:p-0 p-[3%]">
               <div>
                 <h5 className="font-bold text-xl md:text-lg">About Us</h5>
                 <ul>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <a href="#">Policies</a>
                   </li>
                   <li>
-                    <a href="#">Career</a>
+                    <a href="#">Careers</a>
                   </li>
                 </ul>
               </div>
@@ -77,9 +77,9 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" text-blue-400 hover:text-black"
+                  className=" hover:text-blue-400 text-black"
                 >
-                  <FaTwitter size={iconSize} />
+                  <FaXTwitter size={iconSize} />
                 </a>
                 <a
                   href=""
@@ -102,7 +102,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="cpy-right text-sm pb-[2%] text-center font-medium md:text-lg text-slate-600 ">
+        <div className="cpy-right text-sm md:pb-2 pb-[2%] text-center font-medium md:text-lg text-slate-600 ">
           <p>© Copyright 2024. KrishLogiX Pvt. Ltd. All Rights Reserved.</p>
         </div>
       </div>
