@@ -11,6 +11,7 @@ import OurTeam from './components/OurTeam/OurTeam'
 import ContactUs from './components/ContactUs/ContactUs'
 import Footer from './pages/Footer/Footer.jsx'
 import CareerPage from './components/CareerPage.jsx';
+import Temp from './components/temp.jsx';
 
 function App() {
   AOS.init({
@@ -23,7 +24,8 @@ function App() {
    <div className="h-full w-full"> 
    
     <Header/>
-    <LandingPage/>
+    {/* <LandingPage/> */}
+    <Temp/>
     
     <Aboutus/>
        <OurTeam />

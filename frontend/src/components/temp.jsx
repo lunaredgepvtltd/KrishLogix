@@ -31,13 +31,13 @@ const Temp = () => {
    <>{hidden ?  <div className='relative w-full h-screen'>
     <Player
       autoplay
-      // loop
+    //  loop
       src={landing}
       style={{ height: 'full', width: 'full' }} // Adjust the size as needed
     />
     {(!hidden || initial) && ( // Show the h1 only when hidden is false
       // <h1 className=' text-lg lg:text-7xl absolute top-1/2 left-[30%] z-50'>KRISH-LOGISTICS</h1>
-      <img src={logo} alt="logo" className=' absolute top-1/2 bottom-1/2  right-[40%]  z-40 h-[500px] w-[500px]' />
+      <img src={logo} alt="logo" className=' absolute top-[20%]   right-[35%]  z-40 h-[600px] w-[600px]'  />
     )}
   </div> : <LandingPage/>}</>
   );
