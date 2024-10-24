@@ -41,7 +41,7 @@ const Footer = () => {
                     <a href="#">Policies</a>
                   </li>
                   <li>
-                    <a href="#">Careers</a>
+                    <a href="#">Careers</a> 
                   </li>
                 </ul>
               </div>
@@ -90,7 +90,7 @@ const Footer = () => {
                   <FaLinkedin size={iconSize} />
                 </a>
                 <a
-                  href=""
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="  text-pink-600 hover:text-black"
