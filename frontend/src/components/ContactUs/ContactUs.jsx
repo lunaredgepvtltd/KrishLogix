@@ -1,93 +1,3 @@
-// import React from "react";
-// import contactBgImage from "./bgContactUs.png";
-// import { useForm } from "react-hook-form";
-
-// const ContactUs = () => {
-//   const {
-//     register,
-//     handleSubmit,
-//     formState: { errors },
-//   } = useForm();
-
-//   const onSubmit = (data) => {
-//     console.log(data);
-//   };
-
-//   return (
-//     <div
-//       className="relative h-screen w-full bg-cover bg-center overflow-hidden"
-//       style={{ backgroundImage: `url(${contactBgImage})` }}
-//     >
-//       <div className="mb-4  bg-black bg-opacity-60   rounded-[50px] p-10 h-auto md:h-[62%] w-[90%] md:w-[50%] lg:w-[40%] mx-auto mt-[10%]">
-//         <form
-//           className="space-y-[17px] md:space-y-4 mx-auto max-w-[100%] md:max-w-[85%] lg:max-w-[78%]"
-//           onSubmit={handleSubmit(onSubmit)}
-//         >
-//           <h3 className="text-2xl md:text-4xl font-bold uppercase text-center mb-10 text-white">
-//             Contact Us
-//           </h3>
-
-//           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-//             <div className="flex flex-col gap-1 items-center justify-center">
-//               <input
-//                 type="text"
-//                 placeholder="First Name"
-//                 className="p-2 md:p-2 text-sm border rounded-2xl md:rounded-3xl w-full placeholder:text-gray-500 placeholder:text-center focus:outline-none focus:border-[#a6a6a6] transition duration-300"
-//               />
-//             </div>
-
-//             <div className="flex flex-col gap-1 items-center justify-center">
-//               <input
-//                 type="text"
-//                 placeholder="Last Name"
-//                 className="p-2 md:p-2 text-sm border rounded-2xl md:rounded-3xl w-full placeholder:text-gray-500 placeholder:text-center focus:outline-none focus:border-[#a6a6a6] transition duration-300"
-//               />
-//             </div>
-//           </div>
-
-//           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-//             <div className="flex flex-col gap-1 items-center justify-center">
-//               <input
-//                 type="text"
-//                 placeholder="organisation"
-//                 className="p-2 md:p-2 text-sm border rounded-2xl md:rounded-3xl w-full placeholder:text-gray-500 placeholder:text-center focus:outline-none focus:border-[#a6a6a6] transition duration-300"
-//               />
-//             </div>
-
-//             <div className="flex flex-col gap-1 items-center justify-center">
-//               <input
-//                 type="email"
-//                 placeholder="Email"
-//                 className="p-2 md:p-2 text-sm border rounded-2xl md:rounded-3xl w-full placeholder:text-gray-500 placeholder:text-center focus:outline-none focus:border-[#a6a6a6] transition duration-300"
-//               />
-//             </div>
-//           </div>
-
-//           <div className="flex flex-col gap-1 items-center justify-center">
-//             <textarea
-//               placeholder="Message/Query"
-//               className="p-2 text-sm md:p-4 border rounded-2xl md:rounded-3xl w-full placeholder:text-gray-500 placeholder:text-center focus:outline-none focus:border-[#a6a6a6] transition duration-300"
-//               rows={4}
-//             ></textarea>
-//           </div>
-
-//           <div className="text-center mt-5">
-//             <button
-//               type="submit"
-//               className="bg-[#fe6714] text-white py-2 px-8 rounded-2xl md:rounded-3xl text-sm md:text-lg transition duration-300 hover:bg-gray-700"
-//             >
-//               Send
-//             </button>
-//           </div>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ContactUs;
-
-
 import React from "react";
 import contactBgImage from "./bgContactUs.png";
 import { useForm } from "react-hook-form";
@@ -109,10 +19,10 @@ const ContactUs = () => {
 
   return (
     <div id="contactus"
-      className="relative h-screen w-full bg-cover bg-center overflow-hidden"
+      className="relative h-screen w-full bg-cover bg-center overflow-hidden flex items-center"
       style={{ backgroundImage: `url(${contactBgImage})` }}
     >
-      <div className="mb-4 bg-black bg-opacity-60 rounded-[50px] p-10 h-auto md:h-[62%] w-[90%] md:w-[50%] lg:w-[40%] mx-auto mt-[10%]">
+      <div className="bg-black bg-opacity-60 rounded-[50px] p-8 md:p-10 h-auto w-[90%] md:w-[50%] lg:w-[40%] mx-auto ">
         <form
           className="space-y-[17px] md:space-y-4 mx-auto max-w-[100%] md:max-w-[85%] lg:max-w-[78%]"
           onSubmit={handleSubmit(onSubmit)}
